@@ -68,10 +68,10 @@ body {
 		<button id="cvButton" class="pin" onclick="goToCV()">Go to Curriculum Vitae</button>
 	</div>
 	<script>
-    function goToCV() {
-        // Redirect to the Curriculum Vitae page
-        window.location.href = "curriculum_vitae.html";
-    }
+    function downloadCV() {
+    var cvLink = "https://docs.google.com/document/d/1ZQSQwTR8fpCJMjYNbhScpyzPManqEPj8K7GZtVPg7o4/edit";
+    window.open(cvLink, '_blank');
+  }
 </script>
 
 </body>
